@@ -1,0 +1,69 @@
+Apache::CIPP_Handler - CIPP Apache Request Module by Joern Reder
+
+Copyright (c) 1998-1999 dimedis GmbH, Germany
+
+This library ist free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+$Id: README,v 1.4 1999/01/26 11:00:19 joern Exp $
+
+
+WHAT IS Apache::CIPP_Handler?
+
+	This module uses the Apache mod_perl interface to register
+	CIPP sources to Apache. So you let Apache execute CIPP sources
+	on the fly.
+
+WHAT IS CIPP?
+
+	Download CIPP from CPAN or http://spirit.dimedis.de/ and
+	read its README and documentation ;)
+
+WHAT DO YOU NEED TO USE Apache::CIPP_Handler
+
+	You must have a running Apache mod_perl environment. Apache
+	1.2.6 and 1.3.x or better are supported.
+	
+	Also you must have the CIPP module package installed.
+
+WHICH PLATFORMS ARE SUPPORTED
+
+	Apache::CIPP_Handler has only be tested under Unix platforms.
+	I don't know, if it will run on the Win32 platforms.
+
+DOWNLOAD Apache::CIPP_Handler
+
+	Apache::CIPP_Handler and CIPP can be downloaded from CPAN
+		
+		$CPAN/authors/id/J/JR/JRED
+
+	or (in future) from the spirit website.
+		
+		http://spirit.dimedis.de/
+
+		(this site will start March 1999)
+
+INSTALLING Apache::CIPP_Handler
+
+	perl Makefile.PL
+	make
+	make install
+
+DOCUMENTATION
+
+	Apache configuration information is embedded as POD in
+	Apache::CIPP_Handler.pm so you can read it using perldoc.
+
+BUG REPORTING
+
+	Please send any bug reports or comments to
+	
+		cipp-bug@dimedis.de
+	
+	or use the bug report formular on the spirit website
+	
+		http://spirit.dimedis.de/
+
+		(this site will start March 1999)
+	
+	You can speak german with us, but we understand english, too ;)
